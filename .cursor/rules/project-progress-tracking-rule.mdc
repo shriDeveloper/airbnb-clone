@@ -1,0 +1,10 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+
+# Project Progress Tracker
+
+- Once the page has been completed implemented from the UI End. Create a Trace in [project-progress-tracking-rule.mdc](mdc:.cursor/rules/project-progress-tracking-rule.mdc)
+- You have to add a checkmark just after the page name. (that's completed)

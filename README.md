@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Airbnb Clone
+
+A full-featured Airbnb clone built with Next.js 14, ShadCN UI, and TailwindCSS.
+
+## Features
+
+- Modern, responsive UI based on Airbnb's design
+- Property listing and search functionality
+- User authentication
+- Booking system
+- Host features for property listing
+- Reviews and ratings
+- Wishlists
+- Messaging system
+- and much more!
+
+## Tech Stack
+
+- **Frontend Framework**: Next.js 14 (App Router)
+- **UI Components**: ShadCN UI Library
+- **Styling**: TailwindCSS
+- **Authentication**: NextAuth.js/Clerk (to be implemented)
+- **Database**: PostgreSQL/MongoDB (to be implemented)
+- **ORM**: Prisma (to be implemented)
+- **Image Storage**: Cloudinary/AWS S3 (to be implemented)
+- **Payments**: Stripe (to be implemented)
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Run the development server:
+   ```bash
+   npm run dev
+   ```
+4. Open [http://localhost:3000](http://localhost:3000) in your browser to see the result.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Important Note About Images
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The current implementation uses placeholder references for images that are not included in the repository. To run the project properly, you'll need to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1. Add your own images to the following directories:
+   - `/public/icons/` - Category icons (beach.svg, mountain.svg, etc.)
+   - `/public/properties/` - Property images (beach-house.jpg, mountain-cabin.jpg, etc.)
+   - `/public/avatars/` - User avatar images (jessica.jpg, mark.jpg, etc.)
+   - `/public/` - Add a hero-image.jpg for the hero section background
+   - `/public/` - Add a host-image.jpg for the "Become a host" section
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+- `/app` - Next.js app directory with pages and layouts
+- `/components` - Reusable UI components
+- `/components/ui` - ShadCN UI components
+- `/public` - Static assets like images and icons
 
-To learn more about Next.js, take a look at the following resources:
+## License
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+This project is open-source and available under the MIT License.
+# airbnb-clone
