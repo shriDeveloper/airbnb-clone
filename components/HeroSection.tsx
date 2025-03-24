@@ -19,7 +19,7 @@ const HeroSection = () => {
       {/* Hero Content */}
       <div className="relative container mx-auto flex flex-col items-center justify-center h-full text-center z-10">
         <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
-          Find your next stay
+          Find your next stay in 3 minutes
         </h1>
         <p className="text-xl text-white mb-8 max-w-lg">
           Search low prices on homes, apartments and much more...
